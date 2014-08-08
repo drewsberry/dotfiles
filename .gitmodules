@@ -12,4 +12,8 @@
 
 [submodule "vim-python-pep8-indent"]
     path = .vim/bundle/vim-python-pep8-indent
-    url = git://github.com/vim-python-pep8-indent.git
+    url = git://github.com/hynek/vim-python-pep8-indent.git
+
+[submodule "rainbow_parentheses.vim"]
+    path = .vim/bundle/rainbow_parentheses.vim
+    url = git://github.com/kien/rainbow_parentheses.vim.git
