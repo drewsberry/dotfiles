@@ -1,0 +1,15 @@
+[submodule "vimfiles"]
+    path = .vim
+    url = https://github.com/drewsberry/vimfiles.git
+
+[submodule "vim-colors-solarized"]
+    path = .vim/bundle/vim-colors-solarized
+    url = git://github.com/altercation/vim-colors-solarized.git
+
+[submodule "vim-perl"]
+    path = .vim/bundle/vim-perl
+    url = git://github.com/vim-perl/vim-perl.git
+
+[submodule "vim-python-pep8-indent"]
+    path = .vim/bundle/vim-python-pep8-indent
+    url = git://github.com/vim-python-pep8-indent.git

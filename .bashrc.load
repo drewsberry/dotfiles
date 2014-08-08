@@ -1,6 +1,6 @@
 # include what you want
 
-export PATH=$PATH:$HOME/.dotfiles/bin
+export PATH=$PATH:$HOME/.dotfiles/.bin
 
 # add this to the .bashrc: . $HOME/.bashrc.load
 

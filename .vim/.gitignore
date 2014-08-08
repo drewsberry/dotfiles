@@ -1,0 +1,11 @@
+# Generated view files
+view/*
+
+# Netrw plugin history file
+.netrwhist
+
+# Backup vim files
+*~
+
+# Vim swap files
+.*.swp
