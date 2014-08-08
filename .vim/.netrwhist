@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/drewsberry/Code/Python'
+let g:netrw_dirhist_2='/home/drewsberry/.irssi'
+let g:netrw_dirhist_3='/home/drewsberry/Code/C/Learn C the Hard Way'
+let g:netrw_dirhist_4='/home/drewsberry/Projects/drewsberry.github.io/_layouts'
+let g:netrw_dirhist_5='/home/drewsberry/Projects/drewsberry.github.io/_plugins'
+let g:netrw_dirhist_6='/home/drewsberry/Projects/drewsberry.github.io/.git'
