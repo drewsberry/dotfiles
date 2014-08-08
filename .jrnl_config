@@ -8,7 +8,7 @@
   "highlight": true, 
   "password": "", 
   "journals": {
-    "default": "/home/drewsberry/.journal.txt"
+    "default": "$HOME/.journal.txt"
   }, 
   "tagsymbols": "@"
 }
