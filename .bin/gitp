@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]; then
+    echo "Please enter a commit message."
+    exit 5
+fi
+
+if [[ -z "$2" ]]; then
+    echo "Please enter a remote branch."
+    exit 10
+fi
+
+git add . && \
+    git commit -am "$1" && \
+    git push origin $2

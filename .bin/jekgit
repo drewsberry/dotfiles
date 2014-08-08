@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]; then
+    echo "Please enter a git commit message."
+    exit 5
+fi
+
+git checkout source && \
+    jekyll build && \
+    touch _site/.nojekyll && \
+    echo "_site" > _site/.gitignore && \
+    cd _site && \
+    git checkout master && \
+    git add . && \
+    git commit -am "$1" && \
+    git push origin master && \
+    cd .. && \
+    echo "Site successfully build and pushed to GitHub."
