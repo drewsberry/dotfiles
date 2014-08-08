@@ -1,0 +1,7 @@
+xterm*background: black
+xterm*foreground: white
+xterm*faceName: Platino
+xterm*faceSize: 10
+!Term*termName: xterm-256color
+!UXTerm*termName: xterm-256color
+
