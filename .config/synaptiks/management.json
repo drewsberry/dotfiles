@@ -1,0 +1,7 @@
+{
+  "monitor_mouses": false, 
+  "idle_time": 2.0, 
+  "ignored_mouses": [], 
+  "monitor_keyboard": false, 
+  "keys_to_ignore": 2
+}
