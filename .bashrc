@@ -171,8 +171,8 @@ expand()
 
 eval "`dircolors -b ~/.dircolorsrc`"
 
-#Source bashmarks shell file
-source ~/.local/bin/bashmarks.sh
+# # Source bashmarks shell file
+# source ~/.local/bin/bashmarks.sh
 
 # Configuration file for bc (calculator)
 export BC_ENV_ARGS=~/.bcrc
