@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1="$WHITE[$PURPLE\d$WHITE][$RED\@$WHITE][$BLUE\u$CYAN@$BROWN\h$GREEN \w$WHITE]$GREEN\$ $WHITE"
+PS1="$WHITE[$PURPLE\d$WHITE][$RED\@$WHITE][$BLUE\u$CYAN@$BROWN\h$GREEN \w$WHITE]$GREEN\$ $RESET"
 
 eval $(dircolors -b)
 EDITOR=vim
