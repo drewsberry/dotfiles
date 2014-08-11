@@ -1,3 +1,7 @@
+[submodule "oh-my-zsh"]
+    path = .oh-my-zsh
+    url = https://github.com/drewsberry/oh-my-zsh.git
+
 [submodule "vimfiles"]
     path = .vim
     url = https://github.com/drewsberry/vimfiles.git
