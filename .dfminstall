@@ -1,5 +1,6 @@
 README.md skip
-.dfminstall~ skip
+Requirements.md skip
+.dfminstall skip
 .gitmodules skip
 
 .config recurse
