@@ -1,13 +1,13 @@
 [user]
 	name = drewsberry
-	email = silca6@hotmail.co.uk
+	email = drew@drewsilcock.co.uk
 [credential]
 	helper = cache
-[url "git://anongit.kde.org/"]
-    insteadOf = kde:
-[url "git@git.kde.org:"]
-    pushInsteadOf = kde:
 [push]
 	default = current
 [color]
 	ui = true
+[url "git://anongit.kde.org/"]
+    insteadOf = kde:
+[url "git@git.kde.org:"]
+    pushInsteadOf = kde:
