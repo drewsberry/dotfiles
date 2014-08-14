@@ -21,3 +21,7 @@
 [submodule "rainbow_parentheses.vim"]
     path = .vim/bundle/rainbow_parentheses.vim
     url = git://github.com/kien/rainbow_parentheses.vim.git
+
+[submodule "awesome-solarized"]
+    path = .config/awesome/themes/solarized
+    url = git://github.com/cycojesus/awesome-solarized.git
