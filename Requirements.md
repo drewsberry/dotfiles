@@ -5,8 +5,8 @@
 Required by `.bin/uobnet`.
 
 ```bash
-wget http://www.wireless.bris.ac.uk/software-archive/uobnet/ncui-latest.deb
-dpkg -i ncui-latest.deb
+$ wget http://www.wireless.bris.ac.uk/software-archive/uobnet/ncui-latest.deb
+$ sudo dpkg -i ncui-latest.deb
 ```
 
 ## vim
@@ -14,7 +14,7 @@ dpkg -i ncui-latest.deb
 Required by `.vim` and `.virmc`.
 
 ```bash
-sudo apt-get install vim
+$ sudo apt-get install vim
 ```
 
 ## gvim
@@ -22,8 +22,8 @@ sudo apt-get install vim
 Required by `.gvimrc`.
 
 ```bash
-sudo apt-get install vim-gtk # For KDE users
-sudo apt-get install vim-gnome # For Gnome/Unity users
+$ sudo apt-get install vim-gtk # For KDE users
+$ sudo apt-get install vim-gnome # For Gnome/Unity users
 ```
 
 ## zsh
@@ -31,7 +31,7 @@ sudo apt-get install vim-gnome # For Gnome/Unity users
 Required by `.zshrc`, `.zsh_aliases` and `.oh-my-zsh`.
 
 ```bash
-sudo apt-get install zsh
+$ sudo apt-get install zsh
 ```
 
 ## git
@@ -43,8 +43,8 @@ I'm gonna assume you have this already, if you've cloned this repo.
 Required by `.jrnl_config` and `.journal.txt`.
 
 ```bash
-pip install jrnl[encrypted] # bash
-pip install "jrnl[encrypted]" # zsh
+$ sudo pip install jrnl[encrypted] # bash
+$ sudo pip install "jrnl[encrypted]" # zsh
 ```
 
 ## mplayer
@@ -52,7 +52,7 @@ pip install "jrnl[encrypted]" # zsh
 Required by `.mplayer`.
 
 ```bash
-sudo apt-get install mplayer
+$ sudo apt-get install mplayer
 ```
 
 ## gdb
@@ -60,7 +60,7 @@ sudo apt-get install mplayer
 Required by `.gdbinit`.
 
 ```bash
-sudo apt-get install gdb
+$ sudo apt-get install gdb
 ```
 
 ## awesome
@@ -68,7 +68,7 @@ sudo apt-get install gdb
 Required by `.config/awesome`.
 
 ```bash
-sudo apt-get install awesome
+$ sudo apt-get install awesome
 ```
 
 ## nitrogen
@@ -76,7 +76,7 @@ sudo apt-get install awesome
 Required by `.config/nitrogen`.
 
 ```bash
-sudo apt-get install nitrogen
+$ sudo apt-get install nitrogen
 ```
 
 ## synaptiks
@@ -84,8 +84,8 @@ sudo apt-get install nitrogen
 Required by `.config/synaptiks`.
 
 ```bash
-sudo apt-get install synaptiks # Debian
-sudo apt-get install kde-config-touchpad # Ubuntu
+$ sudo apt-get install synaptiks # Debian
+$ sudo apt-get install kde-config-touchpad # Ubuntu
 ```
 
 ## X11
@@ -101,7 +101,7 @@ Required by `.screenlayout`.
 `xrandr` should be included with your X11.
 
 ```bash
-sudo apt-get install arandr
+$ sudo apt-get install arandr
 ```
 
 ## xbindkeys
@@ -109,5 +109,5 @@ sudo apt-get install arandr
 Required by `.xbindkeysrc`.
 
 ```bash
-sudo apt-get install xbindkeys
+$ sudo apt-get install xbindkeys
 ```
