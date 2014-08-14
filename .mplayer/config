@@ -1,4 +1,5 @@
 # Write your default config options here!
 
+# Use software volume amplification
 softvol = 1
 softvol-max = 200
