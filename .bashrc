@@ -171,17 +171,14 @@ expand()
 
 eval "`dircolors -b ~/.dircolorsrc`"
 
-# # Source bashmarks shell file
-# source ~/.local/bin/bashmarks.sh
+# Source bashmarks shell file
+source $HOME/.bin/bashmarks.sh
 
 # Configuration file for bc (calculator)
-export BC_ENV_ARGS=~/.bcrc
+export BC_ENV_ARGS=$HOME/.bcrc
 
 # Add ~/.local/bin to path
-export PATH=$PATH:~/.local/bin
-
-## Use powerline (or try to...)
-#. ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+export PATH=$PATH:$HOME/.local/bin
 
 # Spellcheck for cd
 shopt -s cdspell
