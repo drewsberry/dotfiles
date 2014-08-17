@@ -111,3 +111,17 @@ Required by `.xbindkeysrc`.
 ```bash
 $ sudo apt-get install xbindkeys
 ```
+
+## rvm
+
+In `.bashrc`, `.profile` and `.zshrc`, there is a line that adds the default `rvm` installation directory to the `PATH` environment variable:
+
+```bash
+export PATH="$PATH:$HOME/.rvm/bin"
+```
+
+This functions without this path existing, but for it to function, `rvm` must be installed to `.rvm`. This can easily be achieved via:
+
+```bash
+$ \curl -sSL https://get.rvm.io | bash
+```
