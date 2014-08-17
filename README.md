@@ -6,32 +6,27 @@ This repo contains my dotfiles, for easy install across multiple devices. It
 uses [justone](https://github.com/justone)'s Perl script,
 [dfm](https://github.com/justone/dfm), to track, manage and update the dotfiles.
 
-## Using this repo
+## Installing
 
-First, fork this repo.
+If you want to use this to manage your own dotfiles, see [justone](https://github.com/justone)'s [dfm repo](https://github.com/justone/dfm).
 
-Then, add your dotfiles:
-
-```bash
-$ git clone git@github.com:username/dotfiles.git .dotfiles
-$ cd .dotfiles
-$  # edit files
-$  # edit files
-$ git push origin master
-```
-
-Finally, to install your dotfiles onto a new system:
+To install your dotfiles onto a new system, simply run:
 
 ```bash
 $ cd $HOME
-$ git clone git@github.com:username/dotfiles.git .dotfiles
-$ ./.dotfiles/bin/dfm install # creates symlinks to install files
+$ git clone https://github.com/username/dotfiles.git .dotfiles
+$ cd .dotfiles
+$ git submodule init # Initialises the git submodules
+$ git submodule update # Updates the git submodules
+$ ./.bin/dfm install # Creates symlinks to install files
 ```
 
 # Requirements
 
 For the full list of requirements and how to install them, see
 [Requirements.md](https://github.com/drewsberry/dotfiles/blob/master/Requirements.md).
+
+The basic ones are `zsh` and `vim`/`gvim`.
 
 ## Full documentation
 
