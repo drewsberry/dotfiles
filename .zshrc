@@ -53,10 +53,12 @@ promptinit
 
 bindkey '^Q' reverse-menu-complete
 
-export ANDROID_HOME=$HOME/Programs/androidsdk/
+export ANDROID_HOME=$HOME/Programs/androidsdk/ # Change to your SDK location
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 export PATH=$PATH:$HOME/Programs/androidsdk/tools:$HOME/Programs/androidsdk/platform-tools
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.bin
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

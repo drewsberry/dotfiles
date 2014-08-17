@@ -186,4 +186,6 @@ shopt -s cdspell
 # Functino that makes dir and immediately changes into it
 function mkdircd () { mkdir -pv "$@" && eval cd "\"\$$#\""; }
 
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 . $HOME/.bashrc.load
