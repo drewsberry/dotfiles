@@ -2,6 +2,10 @@
     path = .oh-my-zsh
     url = https://github.com/drewsberry/oh-my-zsh.git
 
+[submodule "zshmarks"]
+    path = .oh-my-zsh/custom/plugins/zshmarks
+    url = https://github.com/jocelynmallon/zshmarks.git
+
 [submodule "vimfiles"]
     path = .vim
     url = https://github.com/drewsberry/vimfiles.git
