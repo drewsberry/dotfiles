@@ -26,6 +26,14 @@ $ sudo apt-get install vim-gtk # For KDE users
 $ sudo apt-get install vim-gnome # For Gnome/Unity users
 ```
 
+## pep8
+
+Required by `.vim/bundle/vim-python-pep8-indent`.
+
+```bash
+$ sudo pip install pep8
+```
+
 ## zsh
 
 Required by `.zshrc`, `.zsh_aliases` and `.oh-my-zsh`.
