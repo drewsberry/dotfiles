@@ -6,22 +6,6 @@
     path = .vim
     url = https://github.com/drewsberry/vimfiles.git
 
-[submodule ".vim/bundle/vim-colors-solarized"]
-    path = .vim/bundle/vim-colors-solarized
-    url = git://github.com/altercation/vim-colors-solarized.git
-
-[submodule ".vim/bundle/vim-perl"]
-    path = .vim/bundle/vim-perl
-    url = git://github.com/vim-perl/vim-perl.git
-
-[submodule ".vim/bundle/vim-python-pep8-indent"]
-    path = .vim/bundle/vim-python-pep8-indent
-    url = git://github.com/hynek/vim-python-pep8-indent.git
-
-[submodule ".vim/bundle/rainbow_parentheses.vim"]
-    path = .vim/bundle/rainbow_parentheses.vim
-    url = git://github.com/kien/rainbow_parentheses.vim.git
-
 [submodule ".config/awesome/themes/solarized"]
     path = .config/awesome/themes/solarized
     url = git://github.com/cycojesus/awesome-solarized.git
