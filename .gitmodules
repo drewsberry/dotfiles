@@ -2,10 +2,10 @@
     path = .oh-my-zsh
     url = https://github.com/drewsberry/oh-my-zsh.git
 
-[submodule ".vim"]
-    path = .vim
-    url = https://github.com/drewsberry/vimfiles.git
-
 [submodule ".config/awesome/themes/solarized"]
     path = .config/awesome/themes/solarized
     url = git://github.com/cycojesus/awesome-solarized.git
+
+[submodule ".vim"]
+	path = .vim
+	url = git://github.com/drewsberry/vimfiles.git
