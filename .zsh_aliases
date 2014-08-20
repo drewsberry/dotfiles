@@ -98,6 +98,11 @@ alias diff=colordiff
 # NERC stuff
 alias photoscan='/home/drewsberry/Documents/NERC/photoscan-pro/photoscan-hack.sh'
 
-
+# Website
 alias jb='jekyll build'
 alias js='jekyll serve'
+
+# zshmarks
+alias b=bookmark
+alias j=jump
+alias sm=showmarks
