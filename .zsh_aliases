@@ -54,7 +54,7 @@ alias zource='source ~/.zshrc'
 
 # Vim
 alias svim='sudo vim -c "set bg=dark"'
-alias sgvim='kdesudo gvim'
+alias sgvim='kdesudo gvim || sudo -i gvim'
 
 # Miscellaneous
 alias say='echo | espeak -s 120 2> /dev/null'
