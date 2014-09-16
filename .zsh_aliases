@@ -54,7 +54,7 @@ alias zource='source ~/.zshrc'
 
 # Vim
 alias svim='sudo vim -c "set bg=dark"'
-alias sgvim='kdesudo gvim || sudo -i gvim'
+alias sgvim='kdesudo gvim &> /dev/null || sudo gvim'
 
 # Miscellaneous
 alias say='echo | espeak -s 120 2> /dev/null'
@@ -70,6 +70,7 @@ alias okp='okular --presentation'
 alias blm='biblatex main && clear'
 alias plm='pdflatex main && clear'
 alias plme='pdflatex -shell-escape main && clear'
+alias plme2='pdflatex -shell-escape main && pdflatex -shell-escape main && clear'
 alias plm2='pdflatex main && pdflatex main && clear'
 alias lt='pdflatex main && pdflatex main && clear && biblatex main '
 alias tc='texcount -inc main.tex'
