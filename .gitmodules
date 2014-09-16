@@ -3,9 +3,9 @@
     url = git://github.com/cycojesus/awesome-solarized.git
 
 [submodule ".vim"]
-	path = .vim
-	url = git://github.com/drewsberry/vimfiles.git
+    path = .vim
+    url = git://github.com/drewsberry/vimfiles.git
 
-[submodule "New"]
-	path = .oh-my-zsh
-	url = git://github.com/drewsberry/oh-my-zsh.git
+[submodule ".oh-my-zsh"]
+    path = .oh-my-zsh
+    url = git://github.com/drewsberry/oh-my-zsh.git
