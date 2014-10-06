@@ -18,6 +18,9 @@ cd .vim
 git submodule init
 git submodule update
 
+vim -u NONE -c "helptags bundle/vim-fugitive/doc" -c q
+vim -u NONE -c "helptags bundle/vim-airline/doc" -c q
+
 cd ..
 
 echo "Successfully installed."
