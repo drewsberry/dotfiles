@@ -1,8 +1,6 @@
 colorscheme solarized
-"let do_syntax_sel_menu = 1|runtime! synmenu.vim|aunmenu &Syntax.&Show\ filetypes\ in\ menu
-"set guifont=Inconsolata\ 12
-set guifont=Ubuntu\ Mono\ 12
+set guifont=Ubuntu\ Mono\ 12 "If you haven't got powerline
+set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
 set guioptions-=m   "Remove menu bar
 set guioptions-=T   "Remove toolbar
-"set guioptions-=r  "Remove right-hand scroll bar
 set guioptions+=r   "Add right-hand scroll bar
