@@ -53,6 +53,9 @@ promptinit
 
 bindkey '^Q' reverse-menu-complete
 
+# Ubuntu specific
+source /etc/zsh_command_not_found
+
 export ANDROID_HOME=$HOME/Programs/androidsdk/ # Change to your SDK location
 
 # Customize to your needs...
