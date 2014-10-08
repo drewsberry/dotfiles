@@ -90,6 +90,8 @@ alias '.c'='./compileIt.sh'
 alias '.x'='../bin/Main -b'
 alias '.cx'='./compileIt.sh && ../bin/Main -b'
 alias '.v'='okular ../graphs/* &> /dev/null &'
+alias py3act='source $HOME/Code/python3/py3env/bin/activate'
+alias py3='$HOME/Code/python3/py3env/bin/python'
 
 # Git
 alias 'git statis'='git status'
@@ -107,3 +109,7 @@ alias js='jekyll serve'
 alias b=bookmark
 alias j=jump
 alias sm=showmarks
+
+# debian package aliases this elsewhere
+alias as=/usr/bin/as
+alias gs=gits
