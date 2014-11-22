@@ -30,7 +30,7 @@ alias ports='netstat -tulanp'
 alias sagi='sudo apt-get install'
 alias sagup='sudo apt-get update'
 alias sagug='sudo apt-get upgrade'
-alias sagu='sudo su -c "apt-get update && sudo apt-get upgrade"'
+alias sagu='sudo su -c "apt-get update && apt-get upgrade"'
 alias sagar='sudo apt-get autoremove'
 alias sagr='sudo apt-get remove'
 
@@ -92,6 +92,7 @@ alias '.cx'='./compileIt.sh && ../bin/Main -b'
 alias '.v'='okular ../graphs/* &> /dev/null &'
 alias py3act='source $HOME/Code/python3/py3env/bin/activate'
 alias py3='$HOME/Code/python3/py3env/bin/python'
+alias bpy=bpython
 
 # Git
 alias 'git statis'='git status'
