@@ -1,10 +1,10 @@
-$HOME/Code/Python|py
+$HOME/Code/python|py
 $HOME/Tmp|tmp
-$HOME/Code/C|c
+$HOME/Code/c|c
 $HOME/Documents/CV/General|cv
 $HOME/Downloads|dl
 $HOME/Documents|doc
-$HOME/Code/C++|cpp
+$HOME/Code/cpp|cpp
 $HOME/Code/ROOT|root
 $HOME/Pictures/APOD|apod
 $HOME/Documents/Physics|phys
@@ -15,11 +15,10 @@ $HOME/Physics/Internship|int
 $HOME/Dropbox|drop
 $HOME/Code|code
 $HOME/Code/Network|net
-$HOME/Code/Assembly|asm
+$HOME/Code/asm|asm
 $HOME/Code/Android|droid
 $HOME/Projects/Psi-Decays|psi
-$HOME/Code/Ruby|ruby
-$HOME/Projects/risp|risp
+$HOME/Code/ruby|ruby
 $HOME/Code|cod
 $HOME/Documents/NERC|nerc
 $HOME/Dev|dev
@@ -27,3 +26,4 @@ $HOME/Dev/MegaPhysics|meg
 $HOME/Documents/Curriculum-Vitae|cv
 $HOME/Dev/drewsberry.github.io|web
 $HOME/Dev/zshmarks|web
+$HOME/Physics/FourthYear/Project|pro
