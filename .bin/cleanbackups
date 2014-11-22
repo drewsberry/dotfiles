@@ -5,4 +5,9 @@ rm */*~ 2> /dev/null
 rm */*/*~ 2> /dev/null
 rm */*/*/*~ 2> /dev/null
 
+rm .*~ 2> /dev/null
+rm */.*~ 2> /dev/null
+rm */*/.*~ 2> /dev/null
+rm */*/*/.*~ 2> /dev/null
+
 exit 0

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+rm .*.swp
+rm */.*.swp
+rm */*/.*.swp
+rm */*/*/.*.swp
+
+exit 0
