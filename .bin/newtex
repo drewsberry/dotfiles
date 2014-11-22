@@ -1,0 +1,74 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]; then
+    echo "Please enter a project name."
+    exit 1
+fi
+
+## LaTeX strings
+
+PREAMBLE='\usepackage{mathtools}
+\usepackage{amssymb}
+
+\newcommand\defeq{\stackrel{\mathclap{\normalfont\mbox{\tiny def}}}{=}}
+
+% New definition of square root:
+% it renames \sqrt as \oldsqrt
+\let\oldsqrt\sqrt
+% it defines the new \sqrt in terms of the old one
+\def\sqrt{\mathpalette\DHLhksqrt}
+\def\DHLhksqrt#1#2{%
+\setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}'
+
+MAIN='\documentclass{article}
+
+\input{preamble}
+
+\title{'"$1"'}
+\author{Drew Silcock}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\end{document}'
+
+MAKEFILE='BASE='"$1"'
+
+SRC=$(BASE).tex
+PDF=$(BASE).pdf
+DEP=preamble.tex
+LATEXMK=latexmk -pdf -pdflatex="pdflatex --shell-escape %O %S"
+TMP=$(BASE).pdfsync *~ *.tmp *.bbl *.blg *.aux *.end *.fls *.log *.out *.fdb_latexmk
+
+all: $(PDF)
+
+$(PDF): $(SRC) $(DEP)
+	$(LATEXMK) $(SRC)
+
+force:
+	latexmk -C $(BASE)
+	rm -rf $(TMP)
+	$(LATEXMK) $(SRC)
+
+clean:
+	latexmk -C $(BASE)
+	rm -rf $(TMP)
+
+.PHONY: force clean all'
+
+mkdir "$1" && \
+    cd "$1" && \
+    echo "$PREAMBLE" > preamble.tex && \
+    echo "$MAIN" > "$1".tex && \
+    echo "$MAKEFILE" > Makefile && \
+    mkdir sections && \
+    echo "Successfully created skeleton LaTeX project." && \
+    exit 0
+
+echo "Error creating LaTeX project. Exiting..."
+exit 1
