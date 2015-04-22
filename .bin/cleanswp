@@ -1,8 +1,8 @@
 #!/bin/sh
 
-rm .*.swp
-rm */.*.swp
-rm */*/.*.swp
-rm */*/*/.*.swp
+rm .*.swp 2> /dev/null
+rm */.*.swp 2> /dev/null
+rm */*/.*.swp 2> /dev/null
+rm */*/*/.*.swp 2> /dev/null
 
 exit 0
