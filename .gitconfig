@@ -11,3 +11,5 @@
     insteadOf = kde:
 [url "git@git.kde.org:"]
     pushInsteadOf = kde:
+[core]
+	quotepath = false
