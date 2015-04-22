@@ -54,7 +54,7 @@ $(PDF): $(SRC) $(DEP)
 	$(LATEXMK) $(SRC)
 
 cont:
-    $(LATEXMKCONT) $(SRC)
+        $(LATEXMKCONT) $(SRC)
 
 force:
 	latexmk -C $(BASE)
@@ -65,7 +65,7 @@ clean:
 	latexmk -C $(BASE)
 	rm -rf $(TMP)
 
-.PHONY: force clean all'
+.PHONY: cont force clean all'
 
 mkdir "$1" && \
     cd "$1" && \

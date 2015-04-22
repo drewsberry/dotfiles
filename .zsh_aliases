@@ -118,3 +118,4 @@ alias gs=gits
 # Misc
 alias pdfcombine='\gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=merged.pdf'
 alias clean='cleanbackups; cleanswp'
+alias timeof='exiftool -DateTimeOriginal -ProfileDateTime'
