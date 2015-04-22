@@ -114,3 +114,7 @@ alias sm=showmarks
 # debian package aliases this elsewhere
 alias as=/usr/bin/as
 alias gs=gits
+
+# Misc
+alias pdfcombine='\gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=merged.pdf'
+alias clean='cleanbackups; cleanswp'
