@@ -1,5 +1,5 @@
 #xrandr --output VGA-0 --off --output LVDS --mode 1366x768 --pos 0x312 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 1366x0 --rotate normal
 
-/home/drewsberry/.screenlayout/geophysics.sh # For the NERC placement screen
+#/home/drewsberry/.screenlayout/geophysics.sh # For the NERC placement screen
 
-xbindkeys
+#xbindkeys
