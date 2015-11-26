@@ -13,3 +13,4 @@
     pushInsteadOf = kde:
 [core]
 	quotepath = false
+	editor = gvim -f
