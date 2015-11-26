@@ -78,9 +78,6 @@ alias okm='okular main.pdf &> /dev/null &'
 alias gvm='gvim main.tex'
 
 # Graphical environment management
-alias kdms='sudo /etc/init.d/kdm stop'
-alias kdmb='sudo /etc/init.d/kdm start'
-alias kdmr='sudo su -c "/etc/init.d/kdm stop && /etc/init.d/kdm start"'
 alias pulserestart='pulseaudio --kill && pulseaudio --start'
 alias pk='pulseaudio --kill'
 
@@ -98,6 +95,8 @@ alias bpy=bpython
 alias 'git statis'='git status'
 alias gits='git status'
 alias diff=colordiff
+alias gu=git-up
+
 
 # NERC stuff
 alias photoscan='/home/drewsberry/Documents/NERC/photoscan-pro/photoscan-hack.sh'
