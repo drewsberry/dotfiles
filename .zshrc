@@ -58,10 +58,14 @@ source /etc/zsh_command_not_found
 
 export ANDROID_HOME=$HOME/Programs/androidsdk/ # Change to your SDK location
 
-# Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
-export PATH=$PATH:$HOME/Programs/androidsdk/tools:$HOME/Programs/androidsdk/platform-tools
-export PATH=$PATH:$HOME/.local/bin
-export PATH=$PATH:$HOME/.bin
+export EDITOR="/usr/bin/gvim"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# Customize to your needs...
+PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+PATH=$PATH:$HOME/Programs/androidsdk/tools:$HOME/Programs/androidsdk/platform-tools
+PATH=$PATH:$HOME/.local/bin
+PATH=$PATH:$HOME/.bin
+PATH=$PATH:$HOME/Programs/gogs
+PATH=$PATH:$HOME/Programs/firefox
+PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH
