@@ -26,13 +26,15 @@ alias poog='ping -c 3 www.google.com'
 alias troog='traceroute www.google.com'
 alias ports='netstat -tulanp'
 
-# package management
+# Package Management
 alias sagi='sudo apt-get install'
 alias sagup='sudo apt-get update'
 alias sagug='sudo apt-get upgrade'
 alias sagu='sudo su -c "apt-get update && apt-get upgrade"'
 alias sagar='sudo apt-get autoremove'
 alias sagr='sudo apt-get remove'
+alias sagdug='sudo apt-get dist-upgrade'
+alias sagdu='sudo su -c "apt-get update && apt-get upgrade && apt-get dist-upgrade"'
 
 # Quiet
 alias gdb='gdb -q'
@@ -96,6 +98,10 @@ alias 'git statis'='git status'
 alias gits='git status'
 alias diff=colordiff
 alias gu=git-up
+alias ga='git add --all :/'
+alias ga.='git add --all .'
+alias glp='git log --pretty=oneline'
+alias gl='git log'
 
 
 # NERC stuff
@@ -118,3 +124,4 @@ alias gs=gits
 alias pdfcombine='\gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=merged.pdf'
 alias clean='cleanbackups; cleanswp'
 alias timeof='exiftool -DateTimeOriginal -ProfileDateTime'
+alias ccat='pygmentize -g -O style=colorful,linenos=1'
