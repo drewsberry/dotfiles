@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if [[ $UID -ne 0 ]]; then
+    sudo "$0"
+    exit
+fi
+
+echo "Stopping network manager..."
+service network-manager stop
+echo "Done."
+echo
+
+echo "Killing wpa_supplicant..."
+killall wpa_supplicant
+echo "Done."
+echo
+
+echo "Restarting network manager application..."
+nmcli nm wifi off
+nmcli nm wifi on
+echo "Done."
+echo
+
+echo "Purging network manager state..."
+rm /var/lib/NetworkManager/NetworkManager.state
+echo "Done."
+echo
+
+echo "Starting network manager..."
+service network-manager start
+echo "Done."
