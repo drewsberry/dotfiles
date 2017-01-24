@@ -10,15 +10,21 @@ uses [justone](https://github.com/justone)'s Perl script,
 
 If you want to use this to manage your own dotfiles, see [justone](https://github.com/justone)'s [dfm repo](https://github.com/justone/dfm).
 
-To install your dotfiles onto a new system, simply run:
+To install your dotfiles onto a new system, simply run (assuming git version 1.9 or later):
 
 ```bash
 $ cd $HOME
+$ git clone --recursive -j8 https://github.com/username/dotfiles.git .dotfiles
+$ cd .dotfiles
+$ ./.bin/dfm install # Creates symlinks to install files
+```
+
+If you're on git 1.6.5 < version < 1.9 then just remove the `-j8` and you're good to go. If you're on git version < 1.6.5, you have to run:
+
+```bash
 $ git clone https://github.com/username/dotfiles.git .dotfiles
 $ cd .dotfiles
-$ git submodule init # Initialises the git submodules
-$ git submodule update # Updates the git submodules
-$ ./.bin/dfm install # Creates symlinks to install files
+$ git submodule update --init --recursive
 ```
 
 # Requirements
